@@ -333,7 +333,7 @@ export const menuData: MenuCategory[] = [
     name: "Kids Meals",
     nameAr: "وجبات كيدز",
     icon: "",
-    image: "https://images.unsplash.com/photo-1619881590738-a111d176d936?w=400&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuD1t6klKBwzWvme-1vDAplYjv8-lY88Frcw&s?w=400&q=80",
     items: [
       { id: "kids-409", name: "Kids 409", nameAr: "كيدز 409", description: "2 strips pieces, juice, sauce, kids toy, bread", descriptionAr: "2 قطع استريبس - عصير - صوص - لعبة اطفال - عيش", price: 120 },
       { id: "kids-nuggets", name: "Kids Nuggets", nameAr: "ناجتس", description: "2 nuggets pieces, juice, sauce, kids toy, bread", descriptionAr: "2 قطع ناجتس - عصير - صوص - لعبة اطفال - عيش", price: 80 },
