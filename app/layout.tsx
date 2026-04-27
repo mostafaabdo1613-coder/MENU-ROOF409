@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono, Cairo } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+// استدعاء ملف الفوتر من مجلد lib
+import Footer from "@/lib/number" 
 
 const _geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 const _geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
@@ -9,7 +11,7 @@ const _cairo = Cairo({ subsets: ["arabic", "latin"], variable: "--font-cairo" })
 
 export const metadata: Metadata = {
   title: 'RooF 409 | Menu',
-  description: 'Cafe and Restaurant in Naqa Hamadi - كافيه ومطعم في نجع حمادي',
+  description: 'Cafe and Restaurant in Naqa Hamadi - كافيه ومطعم في نجع حمادي', 
   generator: 'v0.app',
   icons: {
     icon: [
@@ -39,6 +41,10 @@ export default function RootLayout({
     <html lang="ar" dir="rtl" className="bg-background">
       <body className={`${_cairo.variable} ${_geist.variable} ${_geistMono.variable} font-sans antialiased`}>
         {children}
+        
+        {/* إضافة الفوتر هنا ليظهر أسفل محتوى الصفحة */}
+        <Footer /> 
+
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

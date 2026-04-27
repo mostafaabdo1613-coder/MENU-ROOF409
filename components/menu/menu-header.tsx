@@ -58,15 +58,27 @@ export function MenuHeader({ onShowQR }: MenuHeaderProps) {
         <div className="flex justify-center mt-8">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md rounded-full px-6 py-3 text-white/90 text-sm border border-white/10">
             <MapPin className="h-4 w-4 text-primary" />
-            <span>نجع حمادي - قنا</span>
+            <span> قنا - نجع حمادي - الدور الثالث اعلى نادي الزراعيين</span>
           </div>
         </div>
 
         {/* Powered by */}
         <p className="text-white/40 text-xs mt-8 tracking-wide">
-          Powered by <span className="text-primary/80">Mostafa Abdo</span>
+          Delivery :التواصل <span className="text-primary/80"> 01202521270</span>
         </p>
       </div>
+      
+      
+      {/* <footer className="fixed bottom-0 left-0 w-full text-center pb-4 bg-black">
+  <p className="text-white/40 text-xs tracking-wide">
+  <span>    قنا - نجع حمادي - الدور الثالث اعلى نادي الزراعيين ----- </span>
+     Delivery :<span className="text-primary/80">  01202521270  </span><br></br>
+    Powered by <span className="text-primary/80">Mostafa Abdo </span>
+  </p>
+</footer> */}
+
+
+
       
       {/* Bottom Fade */}
       <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
