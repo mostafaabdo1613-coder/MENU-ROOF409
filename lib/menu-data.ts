@@ -156,6 +156,7 @@ export const menuData: MenuCategory[] = [
   icon: "",
   image: "https://png.pngtree.com/thumb_back/fh260/background/20240912/pngtree-side-view-mojito-cocktail-with-mint-lime-ice-bucket-image_16167746.jpg?w=400&q=80",
   items: [
+    { id: "classic-mojito", name: "Classic Mojito", nameAr: "موهيتو كلاسيك", descriptionAr: "ليمون - نعناع - آيس - سفن اب", price: 70 },
     { id: "strawberry-mojito", name: "Strawberry Mojito", nameAr: "موهيتو فراولة", descriptionAr: "سيرب فراولة - ليمون - نعناع - آيس - سفن اب", price: 70 },
     { id: "blueberry-mojito", name: "Blueberry Mojito", nameAr: "موهيتو بلوبيري", descriptionAr: "سيرب بلوبيري - ليمون - نعناع - آيس - سفن اب", price: 70 },
     { id: "peach-mojito", name: "Peach Mojito", nameAr: "موهيتو خوخ", descriptionAr: "سيرب خوخ - ليمون - نعناع - آيس - سفن اب", price: 70 },
