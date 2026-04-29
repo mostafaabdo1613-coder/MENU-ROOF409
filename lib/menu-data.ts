@@ -148,7 +148,28 @@ export const menuData: MenuCategory[] = [
       { id: "mojito-mint", name: "Mojito Mint", nameAr: "موهيتو نعناع", price: 70 },
       { id: "sunshine-red-bull", name: "Sunshine Red Bull", nameAr: "صن شاين ريد بول", price: 120 },
     ],
-  },
+  },  
+  {
+  id: "mojito",
+  name: "Mojito",
+  nameAr: "موهيتو",
+  icon: "",
+  image: "https://png.pngtree.com/thumb_back/fh260/background/20240912/pngtree-side-view-mojito-cocktail-with-mint-lime-ice-bucket-image_16167746.jpg?w=400&q=80",
+  items: [
+    { id: "strawberry-mojito", name: "Strawberry Mojito", nameAr: "موهيتو فراولة", descriptionAr: "سيرب فراولة - ليمون - نعناع - آيس - سفن اب", price: 70 },
+    { id: "blueberry-mojito", name: "Blueberry Mojito", nameAr: "موهيتو بلوبيري", descriptionAr: "سيرب بلوبيري - ليمون - نعناع - آيس - سفن اب", price: 70 },
+    { id: "peach-mojito", name: "Peach Mojito", nameAr: "موهيتو خوخ", descriptionAr: "سيرب خوخ - ليمون - نعناع - آيس - سفن اب", price: 70 },
+    { id: "pomegranate-mojito", name: "Pomegranate Mojito", nameAr: "موهيتو رمان", descriptionAr: "سيرب رمان - ليمون - نعناع - آيس - سفن اب", price: 70 },
+    { id: "strawberry-pomegranate-mojito", name: "Strawberry Pomegranate Mojito", nameAr: "موهيتو رمان فراولة", descriptionAr: "رمان وفراولة - ليمون فرش - نعناع فرش - آيس - سفن اب", price: 70 },
+    { id: "watermelon-mojito", name: "Watermelon Mojito", nameAr: "موهيتو بطيخ", descriptionAr: "سيرب بطيخ - ليمون - نعناع - آيس - سفن اب", price: 70 },
+    { id: "blue-orange-mojito", name: "Blue Orange Mojito", nameAr: "موهيتو بلو اورنج", descriptionAr: "بلو كراسو - برتقال فرش - ليمون - نعناع - آيس - سفن اب", price: 75 },
+    { id: "passion-mojito", name: "Passion Mojito", nameAr: "موهيتو باشون", descriptionAr: "باشون - بلو كراسو - ليمون - نعناع - آيس - سفن اب", price: 80 },
+    { id: "redbull-mojito", name: "Red Bull Mojito", nameAr: "موهيتو ريدبول", descriptionAr: "ريد بول - ليمون - نعناع - آيس", price: 115 },
+    { id: "pina-colada-mojito", name: "Pina Colada Mojito", nameAr: "موهيتو بيناكولادا", descriptionAr: "اناناس - جوز هند - ليمون - نعناع - سفن اب", price: 95 },
+    { id: "blue-eyes-mojito", name: "Blue Eyes Mojito", nameAr: "موهيتو بلو آيس", descriptionAr: "اناناس - بلو كراسو - ليمون - نعناع - سفن اب", price: 95 },
+    { id: "ice-tea", name: "Ice Tea", nameAr: "شاي مثلج", descriptionAr: "شاي ليبتون - سيرب - آيس - (الطعم من اختيارك)", price: 65 }
+  ]
+},
   {
     id: "frappe",
     name: "Frappe",
