@@ -470,7 +470,7 @@ export const menuData: MenuCategory[] = [
     name: "Crepe",
     nameAr: "كريب",
     icon: "",
-    image: "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=400&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOOSVD2etyUoetJcnunIPVUnpzC6LIyBG-wQ&s?w=400&q=80",
     items: [
   { id: "shawarma-crepe", name: "Shawarma Crepe", nameAr: "كريب شاورما", price: 105 },
   { id: "strips-crepe", name: "Strips Crepe", nameAr: "كريب استربس", price: 105 },
@@ -512,10 +512,7 @@ export const menuData: MenuCategory[] = [
     icon: "",
     image: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=400&q=80",
     items: [
-      { id: "vegetable-salad", name: "Vegetable Salad", nameAr: "سلطة خضار", price: 20 },
-      { id: "sumac-salad", name: "Sumac Salad", nameAr: "سلطة سماق", price: 25 },
-      { id: "tahini", name: "Tahini", nameAr: "طحينة", price: 20 },
-      { id: "extra-cheese", name: "Extra Cheese", nameAr: "اكسترا جبن", price: 20 },
+      
       { id: "potatos", name: "Potatos", nameAr: "بطاطس", price: 35 },
       { id: "fries-cheese-bacon", name: "Fries Cheese Bacon", nameAr: "فرايز تشيز بيكون", price: 80 },
       { id: "coleslaw", name: "Coleslaw", nameAr: "كول سلو", price: 20 },
@@ -525,6 +522,11 @@ export const menuData: MenuCategory[] = [
       { id: "bbq-sauce", name: "BBQ Sauce", nameAr: "صوص باربيكيو", price: 20 },
       { id: "bread", name: "Bread", nameAr: "عيش", price: 5 },
       { id: "kiri", name: "Kiri", nameAr: "كيري", price: 25 },
+      { id: "extra-cheese", name: "Extra Cheese", nameAr: "اكسترا جبن", price: 20 },
+      { id: "tahini", name: "Tahini", nameAr: "طحينة", price: 20 },
+      { id: "vegetable-salad", name: "Vegetable Salad", nameAr: "سلطة خضار", price: 20 },
+      { id: "sumac-salad", name: "Sumac Salad", nameAr: "سلطة سماق", price: 25 },
+     
     ],
     
   },
